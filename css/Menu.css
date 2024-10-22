@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff5722; 
+    color: white; 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo1 {
+    width: 100px; 
+    height: auto; 
+    margin-right: 15px; 
+}
+
+.redes {
+    display: flex; /* Asegúrate de que las redes estén en fila */
+}
+
+.redes i {
+    font-size: 30px; 
+    margin: 0 10px; 
+    transition: transform 0.3s; 
+}
+
+.redes i:hover {
+    transform: scale(1.2); 
+}
+
+nav {
+    margin-left: 20px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; /* Cambiado a blanco para que se vea sobre fondo naranja */
+    text-decoration: none;
+    padding: 5px 10px; 
+}
+
+main {
+    padding: 20px;
+    background-color: #2c2c2c; /* Color de fondo oscuro */
+    color: white; /* Color del texto para mejor legibilidad */
+    border-radius: 10px; /* Esquinas redondeadas (opcional) */
+}
+
+.menu-img {
+    width: 400px; /* Cambia el ancho a 50px para hacer las imágenes más pequeñas */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 500000px; /* Espaciado a la derecha de la imagen */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+.imagen3 {
+    width: 100%; /* Ajusta el ancho a 100% del contenedor */
+    height: auto; /* Mantiene la proporción */
+    margin-top: 20px; /* Espacio superior */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de imagen */
+}
+
+.experiencia {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer {
+    display: flex; /* Usar Flexbox para el footer */
+    justify-content: space-between; /* Espacio entre logo y texto */
+    align-items: center; /* Alinea verticalmente */
+    padding: 10px 20px; /* Espaciado del footer */
+    background-color: #302d2c; /* Color de fondo del footer */
+    color: rgb(146, 78, 78); /* Color del texto en el footer */
+    position:relative;
+    bottom: 0;
+    width: 98%;
+}
+
+.footer-logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.atencion {
+    font-size: 14px; /* Tamaño de la fuente para atención al cliente */
+}
